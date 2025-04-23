@@ -22,12 +22,11 @@ public class FrogSimulation
 			else if(sum < 0){return false;}
 		}
 		return false;
-		}
 	}
 	
 	public double runSimulations(int num)
 	{ 
-	int counter = 0;
+	private int counter = 0;
 	for(int j = 0; j < num; j++){
 		if(simulate() == true) counter++;
 	}
